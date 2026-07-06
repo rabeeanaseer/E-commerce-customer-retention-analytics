@@ -49,7 +49,8 @@ The underlying data warehouse utilizes a standard star-schema approach. This pro
 
 **B) Visualization & Sample Output:**
 
-![MoM Revenue Trend](assets/chart_1_mom_revenue.png)
+![MoM Revenue Trend]<img width="2816" height="1536" alt="MoM Revenue Trend " src="https://github.com/user-attachments/assets/8f49e96b-d6b9-41fd-8804-0de8022d29f0" />
+
 *Figure 1: Baseline revenue vs. 3-month rolling average smoothing out Q4 seasonal spikes.*
 
 | order_month | total_revenue | mom_growth_pct | rolling_3m_avg_revenue |
@@ -70,7 +71,9 @@ While November saw a massive +35.56% MoM growth, the `rolling_3m_avg_revenue` in
 
 **B) Visualization & Sample Output:**
 
-![Cohort Retention Heatmap](assets/chart_2_cohort_heatmap.png)
+![Cohort Retention Heatmap]<img width="2102" height="1291" alt="Cohort Retention Heatmap" src="https://github.com/user-attachments/assets/8abcc3a2-c901-4360-acaf-f046348e55d8" />
+
+
 *Figure 2: Monthly cohort retention decay highlighting the steep Month 1 to Month 2 drop-off.*
 
 | cohort_month | month_0_users | m1_retention_pct | m2_retention_pct | m3_retention_pct |
@@ -91,7 +94,8 @@ The data reveals a critical "retention cliff" between Month 1 and Month 2, dropp
 
 **B) Visualization & Sample Output:**
 
-![RFM Segmentation Pie Chart](assets/chart_3_rfm_segments.png)
+![RFM Segmentation Pie Chart]<img width="2129" height="1174" alt="RFM Segmentation Pie Chart" src="https://github.com/user-attachments/assets/8845a9eb-758c-4092-9c86-490b907e6380" />
+
 *Figure 3: User distribution across RFM segments, pinpointing the "At Risk High-Value" cluster.*
 
 | user_id | recency_days | frequency_count | monetary_value | rfm_total_score | customer_segment |
